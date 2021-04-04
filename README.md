@@ -7,7 +7,7 @@ This boilerplate contains all the required packages and tools to start building 
 - [x] React 17
 - [ ] GraphQL
 - [ ] Instanta
-- [ ] Bugsnag
+- [x] Bugsnag
 - [x] Prettier +
 - [x] Eslint +
 - [ ] Commit lint
