@@ -1,4 +1,6 @@
 const BoomButton = () => {
+  const a= "hello"
+  console.log("Hello",a,{a})
   return (
     <button
       onClick={() => {
