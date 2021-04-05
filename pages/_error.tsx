@@ -1,6 +1,6 @@
 import React from 'react';
 import ErrorPage from 'next/error';
-import Bugsnag from '../lib/bugsnag';
+import Bugsnag from '../src/lib/bugsnag';
 
 export default class Page extends React.Component<any, any> {
   static async getInitialProps(ctx) {

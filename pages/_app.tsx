@@ -1,7 +1,7 @@
 import '../styles/globals.css';
 import React from 'react';
 import App, { Container } from 'next/app';
-import Bugsnag from '../lib/bugsnag';
+import Bugsnag from '../src/lib/bugsnag';
 import Error from './_error';
 
 const ErrorBoundary = Bugsnag.getPlugin('react').createErrorBoundary(React);

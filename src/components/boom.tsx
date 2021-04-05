@@ -1,8 +1,9 @@
 const BoomButton = () => {
-  const a= "hello"
-  console.log("Hello",a,{a})
+  const a = 'hello';
+  console.log('Hello', a, { a });
   return (
     <button
+      type="button"
       onClick={() => {
         throw new Error('Boom!');
       }}

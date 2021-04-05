@@ -2,6 +2,7 @@ import React from 'react';
 import Bugsnag from '@bugsnag/js';
 import BugsnagPluginReact from '@bugsnag/plugin-react';
 import getConfig from 'next/config';
+
 const { serverRuntimeConfig, publicRuntimeConfig } = getConfig();
 
 Bugsnag.start({
