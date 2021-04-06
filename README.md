@@ -6,11 +6,10 @@ This boilerplate contains all the required packages and tools to start building 
 - [x] Tailwind CSS JIT
 - [x] React 17
 - [ ] GraphQL
-- [ ] Instanta
 - [x] Bugsnag
 - [x] Prettier +
 - [x] Eslint +
-- [ ] Commit lint
+- [x] Commit lint
 - [ ] Standard Version
 - [x] Docker +
 - [ ] CI/CD Buildkite
