@@ -12,6 +12,9 @@
   },
   "ignorePatterns": ["./node_modules/*"],
   "rules": {
+    "react/prop-types": "off",
+    "import/no-unresolved": "off",
+    "react/jsx-props-no-spreading": "off",
     "react/react-in-jsx-scope": ["off"],
     "jsx-a11y/href-no-hash": ["off"],
     "react/jsx-filename-extension": ["warn", { "extensions": [".ts", ".tsx"] }],
@@ -29,5 +32,12 @@
         "ignoreRegExpLiterals": true
       }
     ]
+  },
+  "settings": {
+    "import/resolver": {
+      "node": {
+        "paths": ["."]
+      }
+    }
   }
 }

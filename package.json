@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint-fix": "eslint --fix src/**/*.{ts,tsx}",
+    "prettier": "prettier --write src/**/*.{ts,tsx} pages/**/*.{ts,tsx}",
+    "lint:fix": "eslint --fix src/**/*.{ts,tsx} pages/**/*.{ts,tsx}",
+    "lint": "eslint src/**/*.{ts,tsx} pages/**/*.{ts,tsx}",
     "prepare": "husky install"
   },
   "dependencies": {

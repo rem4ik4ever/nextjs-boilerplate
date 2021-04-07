@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import BoomButton from '../src/components/boom';
+import BoomButton from 'src/components/boom';
 
 export default function Home() {
   return (
