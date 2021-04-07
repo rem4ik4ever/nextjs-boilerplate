@@ -1,5 +1,8 @@
 #!/bin/sh
+# shellcheck source=husky/_/husky.sh
+# shellcheck disable=SC1091
 . "$(dirname "$0")/_/husky.sh"
 
-yarn lint-fix
+yarn prettier
+yarn lint:fix
 git add .

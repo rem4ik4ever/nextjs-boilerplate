@@ -1,20 +1,10 @@
 #!/bin/sh
+# shellcheck source=husky/_/husky.sh
+# shellcheck disable=SC1091
 . "$(dirname "$0")/_/husky.sh"
 
 echo '$ commit-msg' 
-echo '$ yarn commitlint -e $1'
+echo "$ yarn commitlint -e $1"
 echo 'Enforcing converntional commits https://www.conventionalcommits.org/en/v1.0.0/'
-echo 'Must use one of the following types:
-  build
-  chore
-  ci
-  docs
-  feat
-  fix
-  perf
-  refactor
-  revert
-  style
-  test
-'
-yarn commitlint -e $1
+echo 'Must use one of the following types: build, chore, ci, docs, feat, fix, perf, refactor, revert, style, test'
+yarn commitlint -e "$1"

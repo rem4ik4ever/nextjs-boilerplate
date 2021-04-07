@@ -1,6 +1,7 @@
 const BoomButton = () => {
   const a = 'hello';
-  console.log('Hello', a, { a });
+  const hello = { a: [1, 2, 3, 4, 'hello'], b: 'something' };
+  console.log(a, hello);
   return (
     <button
       type="button"
